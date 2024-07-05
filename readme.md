@@ -15,10 +15,11 @@ premium cars to the customer's.
 This landing page helps the brand to stand out and build trust amoung the
 customer's
 
-The page contains
--- Header (containing brand logo, links to various services, and login and signup options).
--- Hero Section (describing and building trust with moto in left corner and premium car img on right).
--- Feature's section (pointing out various features about the brand).
--- Vehicles carousel (showing some of the brands premium cars).
--- partners section (one more carousel about the car producing partners thar deals with the brand).
--- footer section (containing more links).
+The page contains <br><br>
+
+1. Header (containing brand logo, links to various services, and login and signup options).<br>
+2. Hero Section (describing and building trust with moto in left corner and premium car img on right).<br>
+3. Feature's section (pointing out various features about the brand).<br>
+4. Vehicles carousel (showing some of the brands premium cars).<br>
+5. partners section (one more carousel about the car producing partners thar deals with the brand).<br>
+6. footer section (containing more links).<br>
