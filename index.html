@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CARS</title>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <header>
+        <a href="/">
+            <h1 class="logo">
+                CARS
+            </h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </nav>
+        <div class="btn">
+            <button class="login">Log in</button>
+            <button class="signup">Sign up</button>
+        </div>
+    </header>    
+
+    <!-- Hero section -->
+    <div class="hero">
+        <div class="hero_info">
+            <h1 class="hero_h">GET THE PREMIUM<br>COLLECTION OF CARS</h1>
+            <p class="hero_p">The ultimate destination for discerning car enthusiasts seeking unparalleled luxury and exclusivity. Our showroom features an impressive collection of premium cars from renowned brands, handpicked for their exceptional performance, design, and craftsmanship.</p>
+            <button class="hero_btn">Get Started</button>
+        </div>
+        <div class="hero_img">
+            <img src="/images/hero_img.png" alt="Hero Section Image">
+        </div>
+    </div>
+
+    <!-- Feature section -->
+    <div class="features">
+        <h1 class="features_h">WHY CHOOSE US ?</h1>
+        <div class="feature">
+            <div class="f">
+                <h1 class="feature_h">Expert Advisors</h1>
+                <p class="feature_p">A team of expert advisors who are trained in the latest technologies and have in-depth knowledge of the premium cars</p>
+            </div>
+            <div class="f">
+                <h1 class="feature_h">Personalized Service </h1>
+                <p class="feature_p">Ensuring customers receive personalized recommendations and guidance throughout their purchasing journey.</p>
+            </div>
+            <div class="f">
+                <h1 class="feature_h">Innovative Financing</h1>
+                <p class="feature_p">Flexible payment options and a streamlined logistics system, allowing customers to take their new vehicle home quickly.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel section -->
+    <div class="carousel_holder">
+        <h1 class="carousel_h">OUR VEHICLES</h1>
+        <div class="slider">
+            <div class="slides">
+                <img src="images/lamborghini.jpg" alt="Lamborghini" class="slide">
+                <img src="images/mclaren.jpg" alt="McLaren" class="slide">
+                <img src="images/ferrari.jpg" alt="Ferrari" class="slide">
+            </div>
+            <button class="prev" onclick="prevSlide()"><img src="/images/Left_Arrow.png" alt="prev" style="display: block;"></button>
+            <button class="next" onclick="nextSlide()"><img src="/images/Right_Arrow.png" alt="next" style="display: block;"></button>
+        </div>
+    </div>
+
+     <!-- Partners Section -->
+    <div class="partners">
+        <h1 class="partners_h">OUR PARTNERS</h1>
+        <div class="slider1" style="--width: 96px; --height:96px; --quantity: 10;">
+            <div class="list">
+                <div class="item" style="--position: 1;"><img src="/svg/bentley.png" alt="bentley"></div>
+                <div class="item" style="--position: 2;"><img src="/svg/bmw.png" alt="bmw"></div>
+                <div class="item" style="--position: 3;"><img src="/svg/ferrari.png" alt="ferrari"></div>
+                <div class="item" style="--position: 4;"><img src="/svg/jaguar.png" alt="jaguar"></div>
+                <div class="item" style="--position: 5;"><img src="/svg/lamborghini.png" alt="lamborghini"></div>
+                <div class="item" style="--position: 6;"><img src="/svg/land.png" alt="land"></div>
+                <div class="item" style="--position: 7;"><img src="/svg/mclaren.png" alt="mclaren"></div>
+                <div class="item" style="--position: 8;"><img src="/svg/mercedes.png" alt="mercedes"></div>
+                <div class="item" style="--position: 9;"><img src="/svg/porsche.png" alt="porsche"></div>
+                <div class="item" style="--position: 10;"><img src="/svg/alfa.png" alt="alfa romeo"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <hr class="line"></hr>
+        <h1 class="logo">
+            CARS
+        </h1>
+        <p class="footer_p">The ultimate destination for discerning car enthusiasts seeking unparalleled luxury and exclusivity.</p>
+        <div>
+            <ul class="links">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </div>
+        <hr class="line"></hr>
+        <h1 class="copyright">© 2024 CARS. ALL RIGHTS RESERVED</h1>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
